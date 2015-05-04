@@ -17,7 +17,7 @@ set history=2000
 set autoindent
 set expandtab
 set tabstop=2
-set shiftwidth=2
+set shiftwidth=3
 set helplang=en
 
 
