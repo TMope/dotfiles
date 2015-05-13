@@ -1,4 +1,3 @@
-
 # 環境変数
 export LANG=ja_JP.UTF-8
 export PATH="$HOME/.pyenv/shims:$PATH" 
@@ -121,7 +120,7 @@ alias cp='cp -i'
 alias mv='mv -i'
  
 alias mkdir='mkdir -p'
- 
+alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
  
